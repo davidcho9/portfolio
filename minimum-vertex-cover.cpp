@@ -1,3 +1,44 @@
+//
+//PROJECT SPECIFICATIONS
+//
+// Oganesson Dynamics wants to ensure that all of its communications within a network remain private, 
+// but this requires extra equipment for at least one end of each communicating pair of sites.
+
+// Given a graph where vertices represent work sites and edges represent pairs of sites that must be able to communicate securely, 
+// what are the fewest work sites that can have security-monitoring nodes to guarantee that each pair has at least one?
+
+// Hint: you will need to use a branch-and-bound approach to solving this problem.
+
+// NOTE: For this problem, your program must be guaranteed to output the correct answer 
+// (or timeout in the process of searching). If your program's output is incorrect for a single test case, 
+// 	it will receive 0 credit on this problem (regardless of how many other test cases it passes). 
+// 	Timing out is allowed, however. Test cases on which you time out will result in no points from that test case,
+// 	but will not zero out points earned on test cases where your program returned the correct output.
+
+// Input Format:
+// The first line contains two values: the number of work sites (N) and the number of pairs of sites that must be
+// able to communicate securely (M). The next M lines each describe a pair of communicating sites, indicating the unique id of each.
+
+// Constraints:
+// 1 ≤ N ≤ 200
+// 1 ≤ M ≤ 10,000
+// 0 ≤ Work Site IDs < N
+
+// Output Format:
+// A single number indicating the minimum number of work sites that must have security monitoring nodes to ensure that at least one exists for every communicating pair.
+
+// Example 0
+// Sample Input:
+// 5 6
+// 0 1
+// 0 2
+// 0 4
+// 1 4
+// 2 3
+// 2 4
+// Sample Output:
+// 3
+
 #include<iostream>
 #include<vector>
 #include<map>
