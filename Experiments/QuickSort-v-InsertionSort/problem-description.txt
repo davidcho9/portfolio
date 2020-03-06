@@ -1,0 +1,5 @@
+Quicksort has an expected runtime of Θ(n log n); insertion sort has an expected run time of Θ(n2). As such, we know that Quicksort will be faster for very large n.  Insertion sort, however, turns out to be faster for small n.  Your job is to figure out how small. 
+
+Compare implementations of Quicksort and Insertion sort, testing each with a range of values for n. Provide a graph of the results, clearly indicating the value on n where the lines cross. 
+
+You may use your own implementations, in any language you choose, or ones that you find elsewhere, as long as you cite your sources.  You must use a wide enough range of values of n to provide a convincing argument of your answer.

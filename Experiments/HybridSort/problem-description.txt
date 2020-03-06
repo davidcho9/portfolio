@@ -1,0 +1,3 @@
+Given the results of part 1 (Quick sort vs. Insertion sort), build a Hybrid sorting algorithm.  When you recurse in Quicksort, if a partition size is less than or equal to some constant k, you should use insertion sort, but if it is greater than k you should continue with Quicksort.  Experimentally determine what value of k will optimize speed. 
+
+Is k the same as the crossover point for part 1? Why do you think this is the case?  Generate a graph comparing this hybrid sort to both Insertion Sort and Quicksort.  Make sure to test with a wide range of values for k (to be sure of your answer) as well as for n (in case the number of values sorted affects your answer).

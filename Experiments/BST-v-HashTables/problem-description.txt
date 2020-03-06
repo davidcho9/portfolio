@@ -1,0 +1,5 @@
+In the C++ standard library, std::multiset can be used to easily store values in a balanced binary tree. Likewise, std::unordered_multiset can be used to store values in a hash table. 
+
+In theory, a hash table should be faster for insertions and deletions, but how much faster?  Compare the two for insertion of n = 10, n = 100, n = 1000, ..., n = as high as you need to go for at least one of the data structures to take more than 3 seconds to run. 
+
+Generate a graph comparing the performance.  You may use binary tree and hash table implementations in another language if you prefer not to use C++.
